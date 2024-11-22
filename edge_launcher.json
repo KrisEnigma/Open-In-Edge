@@ -1,0 +1,9 @@
+{
+  "name": "com.edge.launcher",
+  "description": "Edge Launcher",
+  "path": "edge_launcher.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://fjamdahpfdjigbbpdjbbcffpmbeobpep/"
+  ]
+}

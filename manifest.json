@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Open in Edge",
+  "version": "1.0",
+  "description": "Open links in Microsoft Edge",
+  "permissions": [
+    "nativeMessaging",
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "16": "edge.png",
+    "32": "edge.png",
+    "48": "edge.png",
+    "128": "edge.png"
+  }
+}
