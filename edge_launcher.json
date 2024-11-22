@@ -1,8 +1,8 @@
 {
   "name": "com.edge.launcher",
   "description": "Edge Launcher",
-  "_comment": "Below you can use the .exe file if you don't have Python installed",
-  "path": "edge_launcher.bay",
+  "_comment": "Below you can use the .exe file instead of the .bat if you don't have Python installed",
+  "path": "edge_launcher.bat",
   "type": "stdio",
   "allowed_origins": [
     "chrome-extension://fjamdahpfdjigbbpdjbbcffpmbeobpep/"
